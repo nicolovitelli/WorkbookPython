@@ -7,7 +7,6 @@ of the numbers should be aligned when reasonable values are entered by the user.
 costo_pane = 3.49
 sconto = 60 # %
 pane_acquistato = int(input("Inserisci la quantità di pane vecchio di un giorno acquistato: "))
-# calcolo per: numero * percent / 100
 prezzo_senzasconto = pane_acquistato * 3.49
 prezzo_consconto = prezzo_senzasconto * 60 / 100
 print("Prezzo del pane:", costo_pane)
