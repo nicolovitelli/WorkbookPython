@@ -1,3 +1,4 @@
+import math
 """ In the previous exercise you created a program that computed the area of a triangle
 when the length of its base and its height were known. It is also possible to compute
 the area of a triangle when the lengths of all three sides are known. Let s1, s2 and s3
