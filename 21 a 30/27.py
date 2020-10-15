@@ -5,12 +5,12 @@ you read the height in inches and the weight in pounds then body mass index is
 computed using the following formula: BMI = weight / height × height × 703.
 If you read the height in meters and the weight in kilograms then body mass index is computed using this slightly
 simpler formula: BMI = weight / height × height ."""
-print("1: Inserisci i Dati in pollici/libre\n2: Inserisci i Dati in metri/kg")
+print("1: Inserisci i Dati in pollici/libbre\n2: Inserisci i Dati in metri/kg")
 scelta = input("---> ")
 if scelta == "1":
     altezza_pollici = float(input("Inserisci l'Altezza: "))
-    peso_libre = float(input("Inserisci il Peso: "))
-    imc_pl = peso_libre / (altezza_pollici * altezza_pollici) * 703
+    peso_libbre = float(input("Inserisci il Peso: "))
+    imc_pl = peso_libbre / (altezza_pollici * altezza_pollici) * 703
     print("Indice di Massa Corporea: ", round(imc_pl,2))
 elif scelta == "2":
     altezza_metri = float(input("Inserisci l'Altezza: "))
