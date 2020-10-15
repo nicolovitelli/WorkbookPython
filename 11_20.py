@@ -133,7 +133,7 @@ due to gravity is 9.8 m/s2. You can use the formula vf = v2 i + 2ad to compute t
 final speed, vf , when the initial speed, vi , acceleration, a, and distance, d, are known. """
 altezza = int(input("Inserisci l'Altezza (in metri) dalla quale l'oggetto cade: "))
 gravita = 9.8
-vf = sqrt(2 * gravita * altezza)
+vf = math.sqrt(2 * gravita * altezza)
 print("Colpirà il terreno a %.2f m/s" % vf)
 
 # ESERCIZIO 20
