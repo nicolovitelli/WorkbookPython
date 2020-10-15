@@ -44,19 +44,14 @@ centesimi_per_nickel = 5
 centesimi = int(input("Inserisci il numero di centesimi: "))
 print(" ", centesimi // centesimi_per_toonie, "toonies")
 centesimi = centesimi % centesimi_per_toonie
-
 print(" ", centesimi // centesimi_per_loonie, "loonies")
 centesimi = centesimi % centesimi_per_loonie
-
 print(" ", centesimi // centesimi_per_quarter, "quarters")
 centesimi = centesimi % centesimi_per_quarter
-
 print(" ", centesimi // centesimi_per_dime, "dimes")
 centesimi = centesimi % centesimi_per_dime
-
 print(" ", centesimi // centesimi_per_nickel, "nickels")
 centesimi = centesimi % centesimi_per_nickel
-
 print(" ", centesimi, "pennies")
 
 # ESERCIZIO 14
@@ -151,3 +146,4 @@ the pressure, volume and temperature. Test your program by determining the numbe
 of moles of gas in a SCUBA tank. A typical SCUBA tank holds 12 liters of gas at
 a pressure of 20,000,000 Pascals (approximately 3,000 PSI). Room temperature is
 approximately 20 degrees Celsius or 68 degrees Fahrenheit. """
+# / / /
