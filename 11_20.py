@@ -147,3 +147,28 @@ of moles of gas in a SCUBA tank. A typical SCUBA tank holds 12 liters of gas at
 a pressure of 20,000,000 Pascals (approximately 3,000 PSI). Room temperature is
 approximately 20 degrees Celsius or 68 degrees Fahrenheit. """
 # / / /
+
+# ESERCIZIO 21
+""" The area of a triangle can be computed using the following formula, where b is the
+length of the base of the triangle, and h is its height: area = b × h / 2 
+Write a program that allows the user to enter values for b and h. The program
+should then compute and display the area of a triangle with base length b and height h. """
+# base = float(input("Inserisci la Base del Triangolo: "))
+# altezza = float(input("Inserisci l'Altezza del Triangolo: "))
+# area = (base * altezza) / 2
+# print("L'Area del Triangolo è:", area)
+
+# ESERCIZIO 22
+""" In the previous exercise you created a program that computed the area of a triangle
+when the length of its base and its height were known. It is also possible to compute
+the area of a triangle when the lengths of all three sides are known. Let s1, s2 and s3
+be the lengths of the sides. Let s = (s1 + s2 + s3)/2. Then the area of the triangle
+can be calculated using the following formula: area = s × (s − s1) × (s − s2) × (s − s3)
+Develop a program that reads the lengths of the sides of a triangle from the user and
+displays its area. """
+lato1 = float(input("Inserisci Lunghezza del primo lato: "))
+lato2 = float(input("Inserisci Lunghezza del secondo lato: "))
+lato3 = float(input("Inserisci Lunghezza del terzo lato: "))
+s = (lato1 + lato2 + lato3) / 2
+area = math.sqrt(s * (s - lato1) * (s - lato2) * (s - lato3))
+print("L'Area del Triangolo è:", round(area))
