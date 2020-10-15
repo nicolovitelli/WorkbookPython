@@ -124,6 +124,11 @@ print("Questa energia aggiuntiva costerà %.2f centesimi" % cost)
 base by its height. Write a program that reads the radius of the cylinder, along with
 its height, from the user and computes its volume. Display the result rounded to one
 decimal place. """
+raggio = float(input("Inserisci il Raggio: "))
+altezza = float(input("Inserisci l'Altezza: "))
+area = math.pi * (raggio ** 2)
+volume = altezza * area
+print("Il Volume del Cilindro è:", round(volume, 1))
 
 # ESERCIZIO 19
 """ Create a program that determines how quickly an object is traveling when it hits the
