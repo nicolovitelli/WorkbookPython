@@ -12,11 +12,31 @@ inverno = ["Dicembre", 21]
 mese = input("Inserisci il Mese: ")
 giorno = int(input("Inserisci il Giorno: "))
 stagione = [mese, giorno]
-if stagione == primavera:
-    print("Stagione: Primavera")
-if stagione == estate:
-    print("Stagione: Estate")
-if stagione == autunno:
-    print("Stagione: Autunno")
-if stagione == inverno:
+if mese == "Gennaio" or mese == "Febbraio":
     print("Stagione: Inverno")
+elif mese == "Marzo":
+    if giorno < 20:
+        print("Stagione: Inverno")
+    else:
+        print("Stagione: Primavera")
+elif mese == "Aprile" or mese == "Maggio":
+    print("Stagione: Primavera")
+elif mese == "Giugno":
+    if giorno < 21:
+        print("Stagione: Primavera")
+    else:
+        print("Stagione: Estate")
+elif mese == "Luglio" or mese == "Agosto":
+    print("Stagione: Estate")
+elif mese == "Settembre":
+    if giorno < 22:
+        print("Stagione: Estate")
+    else:
+        print("Stagione: Autunno")
+elif mese == "Ottobre" or mese == "Novembre":
+    print("Stagione: Autunno")
+elif mese == "Dicembre":
+    if giorno < 21:
+        print("Stagione: Autunno")
+    else:
+        print("Stagione: Inverno")
