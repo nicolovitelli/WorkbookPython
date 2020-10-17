@@ -29,4 +29,4 @@ while messaggio != "":
         else:
             nuovo_messaggio = nuovo_messaggio + ch
         print("Messaggio criptato:", nuovo_messaggio)
-  # loop infinito
+
