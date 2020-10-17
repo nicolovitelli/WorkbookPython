@@ -11,4 +11,3 @@ for i in range(len(binario)):
     decimale = decimale + int(val_decimale)
     cifra = cifra - 1
     print(decimale)
- # errato, non completo
