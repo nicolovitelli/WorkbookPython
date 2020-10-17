@@ -22,4 +22,3 @@ for i in range(100):
 print("il valore massimo incontrato è stato:", numero_max)
 print("il valore è stato aggiornato", aggiornato, "volte")
 
-# ok
