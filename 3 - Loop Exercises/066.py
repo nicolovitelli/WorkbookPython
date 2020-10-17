@@ -35,4 +35,4 @@ while riga != "":
         punteggio = 1.0
     elif lettera == "F":
         punteggio = 0.0
-    # non completo
+
