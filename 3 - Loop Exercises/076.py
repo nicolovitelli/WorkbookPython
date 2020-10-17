@@ -17,4 +17,4 @@ while fattore <= n:
         n = n / fattore
     else:
         fattore = fattore + 1
-   # ok 
+
