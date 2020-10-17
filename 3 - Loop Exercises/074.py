@@ -20,4 +20,4 @@ for i in range(minimo, massimo + 1):
     for j in range(minimo, massimo + 1):
         print("%4d" % (i * j), end="")
     print()
-# soluzione del libro
+
