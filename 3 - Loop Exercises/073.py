@@ -13,5 +13,4 @@ for i in range(0, len(frase) // 2):
         print(frase, "è palindromo")
     else:
         print(frase, "non è palindromo")
-        
- # esercizio errato, non completo
+       
