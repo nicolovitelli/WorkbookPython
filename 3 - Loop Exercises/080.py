@@ -32,4 +32,4 @@ while interrompi == 0:
         print("Terminato, ci sono voluti", contatore, "lanci")
         interrompi = 1
         
-  # ok 
+
