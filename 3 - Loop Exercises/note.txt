@@ -1,0 +1,60 @@
+Esercizio 61: Average
+✓ ok, esercizio risolto in maniera autonoma
+
+Esercizio 62: Discount Table
+✓ ok, esercizio risolto in maniera autonoma
+
+Esercizio 63: Temperature Conversion Table
+- esercizio non completo, manca il controllo dei multipli di 10 gradi Celsius
+
+Esercizio 64: No More Pennies
+X esercizio risolto con la soluzione del libro
+
+Esercizio 65: Compute the Perimeter of a Polygon
+X esercizio risolto con la soluzione del libro
+
+Esercizio 66: Compute a Grade Point Average
+- manca la media tra i tre valori inseriti dall'utente
+
+Esercizio 67: Admission Price
+✓ ok, esercizio risolto in maniera autonoma
+ 
+Esercizio 68: Parity Bits
+X esercizio risolto con la soluzione del libro
+
+Esercizio 69: Approximate Pi
+✓ ok, esercizio risolto in maniera autonoma
+
+Esercizio 70: Caesar Cipher
+- loop infinito
+
+Esercizio 71: Square Root
+✓ ok, esercizio risolto in maniera autonoma
+
+Esercizio 72: Is a String a Palindrome?
+X esercizio risolto con la soluzione del libro
+
+Esercizio 73: Multiple Word Palindromes
+- ciclo for e istruzioni if errate
+
+Esercizio 74: Multiplication Table
+X esercizio risolto con la soluzione del libro
+
+Esercizio 75: Greatest Common Divisor
+✓ ok, esercizio risolto in maniera autonoma
+
+Esercizio 76: Prime Factors
+✓ ok, esercizio risolto in maniera autonoma
+
+Esercizio 77: Binary to Decimal
+- da completare e correggere il ciclo for
+
+Esercizio 78: Decimal to Binary
+✓ ok, esercizio risolto in maniera autonoma
+
+Esercizio 79: Maximum Integer
+✓ ok, esercizio risolto in maniera autonoma
+
+Esercizio 80: Coin Flip Simulation
+✓ ok, esercizio risolto in maniera autonoma
+
