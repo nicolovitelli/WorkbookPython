@@ -69,12 +69,12 @@ def dodici_giorni_natale(verso):
         print(verso_12, "\n")
 
 def main():
-verso = int(input("Inserisci Verso da Visualizzare: "))
-dodici_giorni_natale(verso)
-valore = 1
-while valore != 12:
-    dodici_giorni_natale(valore)
-    valore = valore + 1
+    verso = int(input("Inserisci Verso da Visualizzare: "))
+    dodici_giorni_natale(verso)
+    valore = 1
+    while valore != 12:
+        dodici_giorni_natale(valore)
+        valore = valore + 1
 
 if __name__ == '__main__':
     main()
