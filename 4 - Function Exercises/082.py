@@ -8,7 +8,7 @@ def calcola_prezzo(distanza):
     tot_distanza = (distanza * 1000) // 140
     tot_prezzo = tot_distanza * prezzo_140metri
     tot_prezzo = tot_prezzo + prezzo_base
-    print("prezzo totale da pagare:", tot_prezzo, "$")
+    return tot_prezzo
 
 distanza = int(input("inserisci distanza in km: "))
 calcola_prezzo(distanza)
