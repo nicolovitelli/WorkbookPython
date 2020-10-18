@@ -3,7 +3,7 @@ program should begin by reading the binary number from the user as a string. The
 it should compute the equivalent decimal number by processing each digit in the
 binary number. Finally, your program should display the equivalent decimal number
 with an appropriate message. """
-binario = input("Inserisci numbero binario: ")
+binario = input("Inserisci numero binario: ")
 cifra = len(binario)
 decimale = 0
 for i in range(len(binario)):
