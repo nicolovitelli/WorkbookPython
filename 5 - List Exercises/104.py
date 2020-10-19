@@ -6,7 +6,10 @@ function to sort the list. """
 elenco = []
 valore = int(input("Inserisci Valore nella Lista: "))
 while valore != 0:
-    elenco.append(valore)
-    valore = int(input("Inserisci Valore nella Lista: "))
+     elenco.append(valore)
+     valore = int(input("Inserisci Valore nella Lista: "))
 elenco.sort()
-print("Elenco Valori Inseriti:", elenco)
+print("Elenco Valori Inseriti:")
+for valore in elenco:
+    print(valore)
+
