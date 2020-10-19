@@ -27,3 +27,5 @@ def main():
     print("Gli Oggetti sono:", formattare_lista(lista))
 
 main()
+
+# note: non funzionante
