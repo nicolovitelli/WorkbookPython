@@ -11,3 +11,24 @@ from the user and display all of the words in the string with the punctuation ma
 removed. You will need to import your solution to this exercise when completing
 Exercise 158. As a result, you should ensure that your main program only runs when your file has not been
 imported into another program."""
+def divisione_parole(stringa):
+    lista_parole = []
+    somma_caratteri = ""
+    for carattere in stringa:
+        if carattere == "," or carattere == "!" or carattere == "?" or carattere == ":":
+            pass
+        elif carattere == " ":
+            somma_caratteri = somma_caratteri + carattere
+            lista_parole.append(somma_caratteri)
+        else:
+            somma_caratteri = somma_caratteri + carattere
+    print(somma_caratteri)
+    print(lista_parole)
+
+def main():
+    stringa = input("Inserisci Stringa: ")
+    divisione_parole(stringa)
+
+main()
+
+# note: esercizio non completo, il programma registra nella lista solo la prima parola della stringa
