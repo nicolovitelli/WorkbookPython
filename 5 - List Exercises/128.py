@@ -23,7 +23,7 @@ def SieveOfEratosthenes(n):
                 print(p)
 
 def main():
-    n = 30
+    n = int(input("Inserisci Numero: "))
     print("Numeri primi sotto", n, "sono:")
     SieveOfEratosthenes(n)
     
