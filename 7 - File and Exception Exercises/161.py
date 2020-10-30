@@ -1,3 +1,5 @@
+from sys import argv
+
 """ When one writes a function, it is generally a good idea to include a comment that
 outlines the function’s purpose, its parameters and its return value. However, sometimes comments are forgotten,
 or left out by well-intentioned programmers that plan to write them later but then never get around to it.
