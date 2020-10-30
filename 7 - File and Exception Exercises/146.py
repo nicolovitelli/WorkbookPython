@@ -1,3 +1,5 @@
+from collections import Counter
+
 """ One technique that can be used to help break some simple forms of encryption is
 frequency analysis. This analysis examines the encrypted text to determine which
 characters are most common. Then it tries to map the most common letters in English,
