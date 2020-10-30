@@ -1,3 +1,5 @@
+from sys import argv
+
 """ A spell checker can be a helpful tool for people who struggle to spell words correctly.
 In this exercise, you will write a program that reads a file and displays all of the words
 in it that are misspelled. Misspelled words will be identified by checking each word
