@@ -1,3 +1,5 @@
+from random import randint
+
 """ In a particular jurisdiction, older license plates consist of three letters followed by
 three numbers. When all of the license plates following that pattern had been used,
 the format was changed to four numbers followed by three letters.
