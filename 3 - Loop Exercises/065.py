@@ -1,3 +1,5 @@
+import math
+
 """ Write a program that computes the perimeter of a polygon. Begin by reading the x
 and y values for the first point on the perimeter of the polygon from the user. Then
 continue reading pairs of x and y values until the user enters a blank line for the
