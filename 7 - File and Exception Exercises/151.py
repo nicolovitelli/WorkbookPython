@@ -1,3 +1,5 @@
+from random import randrange
+
 """ While generating a password by selecting random characters generally gives a relatively secure password,
 it also generally gives a password that is difficult to memorize.
 As an alternative, some systems construct a password by taking two English words
