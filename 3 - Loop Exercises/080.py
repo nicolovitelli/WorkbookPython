@@ -1,3 +1,5 @@
+from random import randrange
+
 """ What’s the minimum number of times you have to flip a coin before you can have
 three consecutive flips that result in the same outcome (either all three are heads or
 all three are tails)? What’s the maximum number of flips that might be needed? How
