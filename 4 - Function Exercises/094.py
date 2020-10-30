@@ -1,3 +1,5 @@
+from random import randint
+
 """ Write a function that generates a random password. The password should have a
 random length of between 7 and 10 characters. Each character should be randomly
 selected from positions 33 to 126 in the ASCII table. Your function will not take
