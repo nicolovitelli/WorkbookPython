@@ -1,4 +1,4 @@
-import sys
+from sys import argv
 # ESERCIZIO 141
 """ Unix-based operating systems usually include a tool named head. It displays the
 first 10 lines of a file whose name is provided as a command line parameter. Write
