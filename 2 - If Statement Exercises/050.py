@@ -1,3 +1,5 @@
+import math
+
 """ A univariate quadratic function has the form f (x) = ax2 + bx + c, where a, b and
 c are constants, and a is non-zero. The roots of a quadratic function can be found
 by finding the values of x that satisfy the quadratic equation ax2 + bx + c = 0. A
