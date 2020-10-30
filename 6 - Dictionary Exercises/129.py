@@ -1,3 +1,5 @@
+import random
+
 """ In this exercise you will simulate 1,000 rolls of two dice. Begin by writing a function
 that simulates rolling a pair of six-sided dice. Your function will not take any
 parameters. It will return the total that was rolled on two dice as its only result.
