@@ -1,3 +1,5 @@
+from sys import argv
+
 """ Unix-based operating systems also typically include a tool named tail. It displays
 the last 10 lines of a file whose name is provided as a command line parameter.
 Write a Python program that provides the same behavior. Display an appropriate
