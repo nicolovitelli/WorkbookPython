@@ -9,18 +9,26 @@ total occurs. Then it should display a table that summarizes this data. Express 
 frequency for each total as a percentage of the total number of rolls. Your program
 should also display the percentage expected by probability theory for each total.
 Sample output is shown below. """
-def lancioDadi():
+def lancioPrimoDado():
     minimo = 1
     massimo = 6
     primo_dado = random.randint(minimo, massimo)
+    print("\nPrimo Dado:", primo_dado)
+
+def lancioSecondoDado():
+    minimo = 1
+    massimo = 6
     secondo_dado = random.randint(minimo, massimo)
-    print("Primo Dado:", primo_dado, end="")
-    print(" | Secondo Dado:", secondo_dado)
+    print("Secondo Dado:", secondo_dado)
 
 def main():
-    for i in range(1000):
-        lancioDadi()
-
+    contatore = 0
+    numeri = {}
+    while contatore != 1000:
+        lancioPrimoDado()
+        lancioSecondoDado()
+        contatore += 1
+        numeri[lancioPrimoDado()] = lancioSecondoDado()
+    print(numeri)
+    
 main()
-
-# analisi dei dati mancanti
