@@ -16,7 +16,6 @@ way = "way"
 consonante = ("B","C", "D","F","G","H","J","K","L","M","N","P","Q","R","S","T","Y","V","X","Z")
 vowel = ("A","E","I","O","U")
 parola_utente = input("Inserisci una parola da tradurre: ")
-# getting first letter and making sure its a string and setting it to uppercase
 prima_lettera = parola_utente[0]
 prima_lettera = str(prima_lettera)
 prima_lettera=prima_lettera.upper()
