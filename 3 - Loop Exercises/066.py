@@ -7,8 +7,12 @@ line then your program should report a grade point average of 3.1.
 You may find your solution to Exercise 51 helpful when completing this exercise.
 Your program does not need to do any error checking. It can assume that each value
 entered by the user will always be a valid letter grade or a blank line. """
-riga = input("Inserisci la prima Lettera: ")
+riga = input("Inserisci Valutazione in Lettere: ")
 punteggio = 0.0
+media = []
+m = 0
+def mediaLista(lista):
+    return sum(lista) / len(lista)
 while riga != "":
     lettera = riga
     if lettera == "A+":
@@ -35,4 +39,7 @@ while riga != "":
         punteggio = 1.0
     elif lettera == "F":
         punteggio = 0.0
-
+    media.append(punteggio)
+    m = mediaLista(media)
+    riga = input("Inserisci Valutazione in Lettere: ")
+print("Media dei Voti:", round(m, 2))
